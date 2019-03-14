@@ -1,0 +1,31 @@
+﻿.top_bar{
+	background:#f26522; 
+	padding:5px 0px;
+    height: 50px;
+    margin-top:2px;
+}
+.contact{
+	color:#fff; 
+	font-size:16px;
+    top: -12px;
+    left: 7px;
+    height: 60px;
+}
+.menu{
+margin-top:55px;
+    top: -86px;
+    left: -8px;
+    height: 21px;
+    width: 880px;
+}
+.menu .navbar-default{background:none; border:none;}
+ 
+.menu .navbar-nav .active a ,.menu .navbar-nav .active li a :hover {background:#f26522;color:#fff;}
+.menu .navbar-nav li a:hover{background:#f26522;color:#fff;}
+
+@media (max-width:1200px){
+.menu .pull-right{
+float:none !important;}
+}
+
+.images{background:#fff;}
